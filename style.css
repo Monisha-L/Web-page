@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Century Gothic;
+}
+
+header{
+   background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(3.jpg);
+   height: 100vh;
+   background-size: cover;
+   background-position: center;
+}
+ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 25px;
+}
+ul li{
+    display: inline-block;
+    
+        
+        
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 5px 19px;
+    border: 1px solid white;
+}
+ul li a:hover{
+    background-color: white;
+    color: black;
+}
+
+
+.logo img{
+    float: left;
+    width: 150px;
+    height: 100px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.title{
+    position: absolute;
+    top: 43%;
+    left: 30%;
+    
+}
+.title h1{
+    color: white;
+    font-size: 75px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.button{
+    position: absolute;
+    top: 59%;
+    left: 45%;
+
+}
+.btn{
+    border: 1px solid white;
+    padding: 10px 30px;
+    color: white;
+    background-color: black;
+
+}
+.btn:hover{
+    background-color: white;
+    color: black;
+}
+h1{
+    margin: 0;
+    padding: 0;
+    font-family: Century Gothic;
+    font-size: 50px;
+    text-align: center;
+}
+.contact-form{
+background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.4)), url(Winged_nomads.png);
+height: 100vh;
+background-size: cover;
+    background-position: left;
+   }
+   .txtb{
+    display: block;
+    text-align: left;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-style: oblique;
+    
+   }
+   .txtb input{
+       width: 300px;
+       height: 30px;
+   }
+   .txtb textarea{
+    
+        width: 400px;
+        height: 200px;
+
+   }
+
+   
